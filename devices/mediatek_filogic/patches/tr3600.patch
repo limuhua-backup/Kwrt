@@ -76,7 +76,7 @@ index 40b9a926c25c0c..970436866de727 100644
 @@ -6,6 +6,7 @@ set_preinit_iface() {
  	cudy,tr3000-256mb-v1|\
  	cudy,tr3000-v1|\
- 	cudy,tr3000-v1-ubootmod|\
+ 	cudy,tr3000-mod|\
 +	cudy,tr3600-v1|\
  	glinet,gl-mt2500|\
  	glinet,gl-mt2500-airoha|\
@@ -373,7 +373,7 @@ index 38ae810d5968ad..c780b3079adce1 100644
 @@ -149,6 +149,7 @@ mediatek_setup_interfaces()
  	cudy,tr3000-256mb-v1|\
  	cudy,tr3000-v1|\
- 	cudy,tr3000-v1-ubootmod|\
+ 	cudy,tr3000-mod|\
 +	cudy,tr3600-v1|\
  	glinet,gl-mt2500|\
  	glinet,gl-mt2500-airoha|\
@@ -382,9 +382,9 @@ diff --git a/target/linux/mediatek/image/filogic.mk b/target/linux/mediatek/imag
 index f75a22d5c97ce1..f9fd7d166fa893 100644
 --- a/target/linux/mediatek/image/filogic.mk
 +++ b/target/linux/mediatek/image/filogic.mk
-@@ -1298,6 +1298,25 @@ define Device/cudy_tr3000-v1-ubootmod
+@@ -1298,6 +1298,25 @@ define Device/cudy_tr3000-mod
  endef
- TARGET_DEVICES += cudy_tr3000-v1-ubootmod
+ TARGET_DEVICES += cudy_tr3000-mod
  
 +define Device/cudy_tr3600-v1
 +  DEVICE_VENDOR := Cudy
