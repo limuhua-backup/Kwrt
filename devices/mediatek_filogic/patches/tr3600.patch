@@ -375,9 +375,9 @@ index 38ae810d5968ad..c780b3079adce1 100644
  	cudy,tr3000-v1|\
  	cudy,tr3000-mod|\
 +	cudy,tr3600-v1|\
+ 	glinet,gl-mt3600be|\
  	glinet,gl-mt2500|\
  	glinet,gl-mt2500-airoha|\
- 	glinet,gl-mt3000|\
 diff --git a/target/linux/mediatek/image/filogic.mk b/target/linux/mediatek/image/filogic.mk
 index f75a22d5c97ce1..f9fd7d166fa893 100644
 --- a/target/linux/mediatek/image/filogic.mk
